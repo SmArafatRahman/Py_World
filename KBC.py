@@ -8,28 +8,28 @@ def question(num):
     num+=1
     print("Congratulations!!!!!!\nCorrect Answer.")
     print("Your Next Question is on your display.")
-    print("Which team won the FIFA World cup 2022?")
+    print("Which team won the FIFA World cup 2018?")
     print("1.Argentina\n2.Brazil\n3.Germany\n4.France")
     ans = int(input())
-    if(ans==1):
+    if(ans==2):
       num+=1
       print("Congratulations!!!!!!\nCorrect Answer.")
       print("Your Next Question is on your display.")
-      print("Which team won the FIFA World cup 2022?")
+      print("Which team won the FIFA World cup 2014?")
       print("1.Argentina\n2.Brazil\n3.Germany\n4.France")
       ans = int(input())
-      if(ans==1):
+      if(ans==3):
         num+=1
         print("Congratulations!!!!!!\nCorrect Answer.")
         print("Your Next Question is on your display.")
-        print("Which team won the FIFA World cup 2022?")
-        print("1.Argentina\n2.Brazil\n3.Germany\n4.France")
+        print("Which team won the FIFA World cup 2010?")
+        print("1.Spain\n2.Brazil\n3.Germany\n4.France")
         ans = int(input())
         if(ans==1):
           num+=1
           print("Congratulations!!!!!!\nCorrect Answer.")
           print("Your Next Question is on your display.")
-          print("Which team won the FIFA World cup 2022?")
+          print("Which team won the FIFA World cup 2006?")
           print("1.Argentina\n2.Brazil\n3.Germany\n4.France")
           ans = int(input())
           if(ans==1):
